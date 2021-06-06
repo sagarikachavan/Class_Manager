@@ -46,6 +46,7 @@ notifications about when assignments and exams are due.
 Therefore, helps Students to keep track of their school or college work.
 
 FUTURE SCOPE
+
 • Adding a navigation layout for the user to easily navigate between 
 different activities.
 • Let teachers set a submission date, considering other assignments’

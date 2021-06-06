@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".Assignments_Admin">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextAppearance.AppCompat">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#fad3e0">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="200sp"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:clipToPadding="false">
+
+                <TextView
+                    android:id="@+id/Sl"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aref_ruqaa"
+                    android:text="Sl. No."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/course"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aref_ruqaa"
+                    android:text="Subject"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <TextView
+                    android:id="@+id/submi"
+                    android:layout_width="129dp"
+                    android:fontFamily="@font/aref_ruqaa"
+                    android:padding="3dip"
+                    android:text="Submission date"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="209dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="210dp"
+        android:fontFamily="@font/aref_ruqaa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Assignments"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070003"
+        android:textColorLink="#0B0101"
+        android:textSize="36sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330sp"
+        android:layout_marginTop="650sp"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:foregroundGravity="fill_horizontal|top|left|bottom|center_vertical|clip_horizontal|center|fill_vertical|clip_vertical|right|center_horizontal|fill"
+        app:backgroundTint="#AD1457"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</RelativeLayout>

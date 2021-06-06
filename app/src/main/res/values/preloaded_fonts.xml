@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee_italic</item>
+        <item>@font/alex_brush</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/aref_ruqaa_bold</item>
+        <item>@font/bentham</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/cherry_swash_bold</item>
+    </array>
+</resources>

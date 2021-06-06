@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD3E0"
+    android:textAlignment="center"
+    tools:context=".User_Class">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/b3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginStart="43dp"-->
+    <!--        android:layout_marginTop="305dp"-->
+    <!--        android:text="TimeTable"-->
+    <!--        tools:layout_editor_absoluteX="258dp"-->
+    <!--        tools:layout_editor_absoluteY="173dp" />-->
+
+    <!--    664<Button-->
+    <!--        android:id="@+id/b1"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="61dp"-->
+    <!--        android:layout_marginTop="169dp"-->
+    <!--        android:layout_marginEnd="262dp"-->
+    <!--        android:layout_marginBottom="514dp"-->
+    <!--        android:text="Teachers"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
+    <!--<VideoView-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:id="@+id/vid"-->
+    <!--    />-->
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="396dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Assignments"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/LOGOUT"
+        android:layout_width="404dp"
+        android:layout_height="58dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+    <Button
+        android:id="@+id/adminannouncement"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="ANNOUNCEMENT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/LOGOUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="400dp"
+        android:layout_height="62dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Timetable"
+        android:textColor="#FBF8F8"
+        app:layout_constraintBottom_toTopOf="@+id/adminannouncement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="399dp"
+        android:layout_height="52dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Teachers"
+        android:textColor="#FDF8F8"
+        app:layout_constraintBottom_toTopOf="@+id/b2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="347dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:textAlignment="center"
+        android:textColor="#082B45"
+        android:textColorHighlight="#5C2A2A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/b1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

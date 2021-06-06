@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:foregroundTint="#292222"
+    tools:context=".Admin">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="378dp"
+        android:layout_height="68dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:onClick="logoutAdmin"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <EditText
+        android:id="@+id/Namee"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#C4bad6"
+        android:backgroundTint="#C4BAD6"
+        android:ems="10"
+        android:fontFamily="@font/abeezee_italic"
+        android:foregroundTint="#474444"
+        android:hint="Class Name"
+        android:inputType="textPersonName"
+        android:textColor="#480653"
+        android:textColorHint="#480653"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="208dp"
+        android:layout_height="39dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Create"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Namee"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/classEnter"
+        android:layout_width="232dp"
+        android:layout_height="42dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Class enter"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Namee"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.Holo.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="Havent created a class yet??"
+        android:textColor="#480653"
+        app:layout_constraintBottom_toTopOf="@+id/Namee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@android:style/Widget.Material.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="Aldready created one? Just enter "
+        android:textColor="#480653"
+        app:layout_constraintBottom_toTopOf="@+id/classEnter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create"
+        app:layout_constraintVertical_bias="0.873" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

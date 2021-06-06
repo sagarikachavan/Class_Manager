@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD3E0">
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="184dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="80dp"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="323dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="158dp"
+        android:fontFamily="@font/aref_ruqaa_bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Phone Number"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="398dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/aref_ruqaa" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignEnd="@+id/datemore"
+        android:layout_alignRight="@+id/datemore"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="272dp"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Mail Id"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="294dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="104dp"
+        android:fontFamily="@font/aref_ruqaa" />
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="293dp"
+        android:fontFamily="@font/aref_ruqaa" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Room Number" />
+
+</RelativeLayout>

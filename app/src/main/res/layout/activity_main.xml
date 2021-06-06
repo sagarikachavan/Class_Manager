@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:foregroundTint="#A59F9F"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/LogoutBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Logout"
+        android:textColor="#48169F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Classid"
+        android:layout_width="313dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="64dp"
+        android:background="#C4BAD6"
+        android:drawableStart="@drawable/bg_edittext"
+        android:drawableRight="@drawable/bg_edittext"
+        android:ems="10"
+        android:fontFamily="@font/abeezee_italic"
+        android:foregroundTint="#C5C5C5"
+        android:hint="      Enter Class id"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textColor="#440A4E"
+        android:textColorHint="#530760"
+        app:layout_constraintBottom_toTopOf="@+id/UserClass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/UserClass"
+        android:layout_width="201dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/buttonshape2"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:text="Enter Class"
+        android:textColor="#441597"
+        app:layout_constraintBottom_toTopOf="@+id/LogoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="262dp"
+        android:layout_height="63dp"
+        android:background="#E2780C0C"
+        android:backgroundTint="#00000000"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="Enter your Class id given by your class representative/teacher"
+        android:textColor="#480653"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Classid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
